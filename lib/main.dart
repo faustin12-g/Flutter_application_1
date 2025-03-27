@@ -13,10 +13,7 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
       title: 'My Flutter Intro App',
-      theme: ThemeData(colorScheme: ColorScheme.fromSeed(seedColor: const Color.fromARGB(255, 44, 62, 163), brightness: Brightness.dark),
-      useMaterial3: true,
-      ),
-      home: const HomeScreen(),         
+      home: const HomeScreen(),
     );
   }
 }
